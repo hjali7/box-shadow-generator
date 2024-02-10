@@ -11,6 +11,7 @@
 
 body {
     background-color : #0075ff ;
+    overflow : hidden;
 }
 
 .container {
@@ -26,7 +27,7 @@ body {
 }
 
 .result {
-    padding: 150px 0;
+    padding: 100px 0;
 }
 
 #element {
