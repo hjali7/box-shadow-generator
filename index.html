@@ -12,6 +12,42 @@
         <div class="result">
             <div id="element"></div>
         </div>
+        <div class="sliders">
+            <div class="slider-wrapper">
+                <label for="h-shadow">Horizontal Shadow :</label>
+                <input type="range" max="100" min="-100" value="0" id="h-shadow">
+            </div>
+            <div class="slider-wrapper">
+                <label for="v-shadow">Vertical Shadow :</label>
+                <input type="range" max="100" min="-100" value="0" id="v-shadow">
+            </div>
+            <div class="slider-wrapper">
+                <label for="blur-raduis">Blur Radius:</label>
+                <input type="range" max="100" min="0" value="0" id="blur-raduis">
+            </div>
+            <div class="slider-wrapper">
+                <label for="spread-radius">Spread Radius:</label>
+                <input type="range" max="50" min="-50" value="0" id="spread-radius">
+            </div>
+            <div class="slider-wrapper">
+                <label for="shadow-color">Shadow Color :</label>
+                <input type="color" id="shadow-color">
+            </div>
+            <div class="slider-wrapper">
+                <label for="shadow-color-opacity">
+                    Shadow Color Opacity
+                </label>
+                <input type="range"  id="shadow-color-opacity" min="0" max="1" step="0.1" value="1"/>
+            </div>
+            <div class="input-wrapper">
+                <label for="shadow-inset">Inset Shadow</label>
+                <input type="checkbox" id="shadow-inset">
+            </div>
+        </div>
+        <div class="code-wrapeer">
+            <textarea  rows="2"></textarea>
+            <button type="button">Copy</button>
+        </div>
     </div>
 </body>
 </html>
